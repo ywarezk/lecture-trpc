@@ -1,0 +1,17 @@
+{
+	"name": "server",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "ts-node main.ts"
+	},
+	"dependencies": {
+		"@trpc/client": "^11.0.0-next-beta.193",
+		"@trpc/server": "^11.0.0-next-beta.193",
+		"@types/cors": "^2.8.17",
+		"cors": "^2.8.5",
+		"zod": "^3.22.4"
+	},
+	"exports": {
+		"./app.router.ts": "./app.router.ts"
+	}
+}
